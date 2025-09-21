@@ -2,7 +2,7 @@ Traffic Situation Prediction 🚦
 
 This project uses machine learning to predict traffic situations (e.g., low, normal, high, heavy) based on vehicle counts, time, and day of the week. The dataset (Traffic.csv) contains traffic counts recorded at 15-minute intervals.
 
-📂 Dataset
+**📂 Dataset**
 
 The dataset has the following columns:
 
@@ -24,8 +24,8 @@ Total – Total vehicles
 
 Traffic Situation – Target variable (low / normal / high / heavy)
 
-⚙️ Steps in the Notebook
-
+**⚙️ Steps in the Notebook
+**
 Load the dataset (Traffic.csv)
 
 Feature Engineering
@@ -52,8 +52,8 @@ Print accuracy and classification report
 
 Achieved ~99.8% accuracy
 
-Prediction on New Data
-
+**Prediction on New Data
+**
 Example: Car=50, Bike=10, Bus=5, Truck=2, Time=9:30 AM, Monday
 
 Predicts the traffic situation (e.g., normal)
@@ -75,11 +75,11 @@ pred_label = target_encoder.inverse_transform(pred)
 print("Predicted Traffic Situation:", pred_label[0])
 
 
-Output:
+**Output:**
 
 Predicted Traffic Situation: normal
 
-🚀 How to Use
+**🚀 How to Use**
 
 Open the Colab notebook.
 
